@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+      }
+      p.info {
+        background-color: rgba(0, 0, 255, 0.5);
+      }
+      /* CSS Specificity : Paragraph color is the color value assigned to the ".info" class. 
+      Because the class selector is given higher priority. 
+      A class selector beats any number of element selectors */
+    </style>
+  </head>
+  <body>
+    <p class="info">Here is a paragraph</p>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(41, 38, 38);
+    color: yellow;
+}
+
+ nav a {
+    color: greenyellow;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+    text-size-adjust: large;
+    cursor: pointer;
+    background-color: rgb(9, 60, 170);
+
+}
+
+div{
+    background-color: rgb(51, 30, 2);
+    margin: 0;
+}
+
+p{
+    padding: 1rem;
+}
