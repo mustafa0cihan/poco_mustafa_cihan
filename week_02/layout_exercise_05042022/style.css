@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(242, 242, 242);
+}
+main {
+  width: 70vh;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 4vh;
+  padding: 3vh;
+}
+form {
+  color: rgb(85, 87, 84);
+}
+fieldset {
+  border: 0vh;
+}
+legend {
+  font-size: 18px;
+  font-weight: bold;
+}
+#adresse,
+#ort,
+#land {
+  width: 13vh;
+}
+
+#haus-no,
+#kanton,
+#plz {
+  width: 4vh;
+}
+label {
+  float: left;
+  width: 50%;
+}
+
+input {
+  border-top: 0vh;
+  border-right: 0vh;
+  border-left: 0vh;
+}
+
+.geschlecht {
+  width: 9vh;
+  height: 4vh;
+  margin: auto;
+}
+
+.geschlecht:hover {
+  color: red;
+  border-bottom-color: red;
+}
+
+.sprache {
+  width: 6vh;
+  height: 4vh;
+  margin: auto;
+}
+
+.sprache:hover {
+  color: red;
+  border-bottom-color: red;
+}
+
+#submit {
+  background-color: rgb(190, 20, 0);
+  color: #fff;
+  width: 14vh;
+  height: 6vh;
+  margin-left: 50vh;
+}
+
+div {
+  width: 25vh;
+  height: 2vh;
+  background-color: black;
+}

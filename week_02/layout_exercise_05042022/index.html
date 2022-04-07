@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Layout Exercise</title>
+  </head>
+  <body>
+    <main>
+      <div></div>
+      <h1>Profil</h1>
+      <p>Hier können Sie Ihre Adress-Angaben einsehen und anpassen.</p>
+      <br />
+      <form action="index.html">
+        <fieldset>
+          <legend>Persönliche Daten</legend>
+
+          <label for="titel">Titel</label>
+          <input type="text" placeholder="Dr.hc" /><br />
+
+          <label for="titel">Vorname</label>
+          <input type="text" placeholder="Peter" /><br />
+
+          <label for="titel">Nachname</label>
+          <input type="text" placeholder="Muster" /><br />
+
+          <label for="titel">Geschlecht</label>
+
+          <input
+            type="button"
+            name="geschlecht"
+            class="geschlecht"
+            id="woman"
+            value="W"
+          />
+          <input
+            type="button"
+            name="geschlecht"
+            class="geschlecht"
+            id="man"
+            value="M"
+          /><br />
+          <label for="titel">Sprache</label>
+          <input
+            type="button"
+            name="sprache"
+            id="sprache1"
+            value="DE"
+            class="sprache"
+          />
+          <input
+            type="button"
+            name="sprache"
+            id="sprache2"
+            value="FR"
+            class="sprache"
+          />
+          <input
+            type="button"
+            name="sprache"
+            id="sprache3"
+            value="IT"
+            class="sprache"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Kontaktdaten</legend>
+
+          <label for="tel">Telefon</label>
+          <input type="tel" name="tel" placeholder="optional" /><br />
+
+          <label for="mobile">Mobile</label>
+          <input type="tel" name="mobile" placeholder="optional" /><br />
+
+          <label for="hauptnummer">Hauptnummer</label>
+          <input type="text" name="hauptnummer" placeholder="optional" /><br />
+
+          <label for="fax">Fax</label>
+          <input type="tel" name="fax" placeholder="optional" /><br />
+
+          <label for="email">Mail 1</label>
+          <input type="email" name="email-1" placeholder="optional" /><br />
+
+          <label for="fax">Mail 2</label>
+          <input type="email" name="email-2" placeholder="optional" /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Adressdaten</legend>
+
+          <label for="firma">Firma</label>
+          <input type="text" name="firma" placeholder="optional" /><br />
+
+          <label for="zusatz-firma">Zusatz Firma</label>
+          <input type="text" name="zusatz-firma" placeholder="optional" /><br />
+
+          <label for="home-page">Homepage</label>
+          <input type="text" name="home-page" placeholder="optional" /><br />
+
+          <label for="adresse-haus-no">Adresse / Haus Nr</label>
+          <input
+            type="text"
+            name="adresse"
+            placeholder="optional"
+            id="adresse"
+          />
+          <input
+            type="text"
+            name="haus-no"
+            placeholder="optional"
+            id="haus-no"
+          /><br />
+
+          <label for="zusatz-adresse">Zusatz Adresse</label>
+          <input
+            type="text"
+            name="zusatz-adresse"
+            placeholder="optional"
+          /><br />
+
+          <label for="postfach">Postfach</label>
+          <input type="text" name="postfach" placeholder="optional" /><br />
+
+          <label for="plz-ort">PLZ / Ort</label>
+          <input type="text" name="plz" placeholder="optional" id="plz" />
+          <input type="text" name="ort" placeholder="optional" id="ort" /><br />
+
+          <label for="kanton-land">Kanton / Land</label>
+          <input type="text" name="kanton" placeholder="optional" id="kanton" />
+          <input type="text" name="land" placeholder="optional" id="land" />
+        </fieldset>
+        <br />
+        <button type="submit" id="submit">Speichern</button>
+      </form>
+    </main>
+  </body>
+</html>

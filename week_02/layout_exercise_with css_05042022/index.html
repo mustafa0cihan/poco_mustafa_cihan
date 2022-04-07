@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Layout Exercise</title>
+  </head>
+  <body>
+    <main>
+      <div></div>
+      <h1>Profil</h1>
+      <p>Hier können Sie Ihre Adress-Angaben einsehen und anpassen.</p>
+      <br />
+      <form action="index.html">
+        <fieldset>
+          <hr />
+          <h3>Persönliche Daten</h3>
+          <table>
+            <tr>
+              <td><label for="titel">Titel</label></td>
+              <td><input type="text" placeholder="Dr.hc" /></td>
+            </tr>
+            <tr>
+              <td><label for="titel">Vorname</label></td>
+              <td><input type="text" placeholder="Peter" /></td>
+            </tr>
+            <tr>
+              <td><label for="titel">Nachname</label></td>
+              <td><input type="text" placeholder="Muster" /></td>
+            </tr>
+            <tr>
+              <td><label for="titel">Geschlecht</label></td>
+              <td>
+                <input
+                  type="button"
+                  name="geschlecht"
+                  class="geschlecht"
+                  id="woman"
+                  value="W"
+                />
+                <input
+                  type="button"
+                  name="geschlecht"
+                  class="geschlecht"
+                  id="man"
+                  value="M"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="titel">Sprache</label></td>
+              <td>
+                <input
+                  type="button"
+                  name="sprache"
+                  id="sprache1"
+                  value="DE"
+                  class="sprache"
+                />
+                <input
+                  type="button"
+                  name="sprache"
+                  id="sprache2"
+                  value="FR"
+                  class="sprache"
+                />
+                <input
+                  type="button"
+                  name="sprache"
+                  id="sprache3"
+                  value="IT"
+                  class="sprache"
+                />
+              </td>
+            </tr>
+          </table>
+          <hr />
+          <h3>Kontaktdaten</h3>
+          <table>
+            <tr>
+              <td><label for="tel">Telefon</label></td>
+              <td><input type="tel" name="tel" placeholder="optional" /></td>
+            </tr>
+            <tr>
+              <td><label for="mobile">Mobile</label></td>
+              <td><input type="tel" name="mobile" placeholder="optional" /></td>
+            </tr>
+            <tr>
+              <td><label for="hauptnummer">Hauptnummer</label></td>
+              <td>
+                <input type="text" name="hauptnummer" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="fax">Fax</label></td>
+              <td>
+                <input type="tel" name="fax" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Mail 1</label></td>
+              <td>
+                <input type="email" name="email-1" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="fax">Mail 2</label></td>
+              <td>
+                <input type="email" name="email-2" placeholder="optional" />
+              </td>
+            </tr>
+          </table>
+          <hr />
+          <h3>Adressdaten</h3>
+          <table>
+            <tr>
+              <td><label for="firma">Firma</label></td>
+              <td><input type="text" name="firma" placeholder="optional" /></td>
+            </tr>
+            <tr>
+              <td><label for="zusatz-firma">Zusatz Firma</label></td>
+              <td>
+                <input type="text" name="zusatz-firma" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="home-page">Homepage</label></td>
+              <td>
+                <input type="text" name="home-page" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="adresse-haus-no">Adresse / Haus Nr</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="adresse"
+                  placeholder="optional"
+                  id="adresse"
+                />
+                <input
+                  type="text"
+                  name="haus-no"
+                  placeholder="optional"
+                  id="haus-no"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="zusatz-adresse">Zusatz Adresse</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="zusatz-adresse"
+                  placeholder="optional"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="postfach">Postfach</label></td>
+              <td>
+                <input type="text" name="postfach" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="plz-ort">PLZ / Ort</label></td>
+              <td>
+                <input type="text" name="plz" placeholder="optional" id="plz" />
+                <input type="text" name="ort" placeholder="optional" id="ort" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="kanton-land">Kanton / Land</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="kanton"
+                  placeholder="optional"
+                  id="kanton"
+                />
+                <input
+                  type="text"
+                  name="land"
+                  placeholder="optional"
+                  id="land"
+                />
+              </td>
+            </tr>
+          </table>
+          <br /><br />
+          <button type="submit" id="submit">Speichern</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

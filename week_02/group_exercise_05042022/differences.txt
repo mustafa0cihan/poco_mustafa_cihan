@@ -1,0 +1,5 @@
+Email, Tel, Number type "input" elements are the same in Chrome and Edge browsers. 
+However, there is a difference in the "input" elements of Color and Date type. 
+An icon with colors is displayed in the color type input element in the Chrome browser.
+Also, the calendar icon in the "input" element of type Date is different. 
+The colors in the calendar element are different.
