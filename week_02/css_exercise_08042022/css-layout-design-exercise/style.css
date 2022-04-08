@@ -1,0 +1,60 @@
+body {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.nav {
+    background-color: rgb(89,149,218);
+    height: 20vh;
+}
+
+.header {
+    background-color: rgb(178,214,255);
+    height: 20vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: grid;
+    place-items: center ;
+}
+#yellow {
+    background-color: yellow;
+    width: 33.33vw;
+}
+
+#purple {
+    background-color: rgb(156, 23, 156);
+    width: 33.33vw;
+}
+
+#red {
+    background-color: red;
+    width: 33.33vw;
+}
+
+#blue {
+    background-color: blue;
+    flex-basis: 100vw;
+    height: 20vh;
+}
+
+#lightgrey {
+    background-color: lightgrey;
+    flex-basis: 100vw;
+    height: 20vh;
+}
+
+.feature {
+    height: 20vh;
+}
+
+.center {
+    display: grid;
+    place-items: center ;
+}

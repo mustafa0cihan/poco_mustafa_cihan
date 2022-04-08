@@ -1,0 +1,16 @@
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {
+    background-color: aqua;
+    border: 1px solid blue;
+    height: 300px;
+    padding: 40px;
+    margin: 10px;
+    width: 148px;
+}

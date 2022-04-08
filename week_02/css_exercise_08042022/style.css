@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {
+    background-color: aqua;
+    border: 1px solid blue;
+    height: 400px;
+    padding: 40px;
+    margin: 10px;
+    width: 148px;
+}
