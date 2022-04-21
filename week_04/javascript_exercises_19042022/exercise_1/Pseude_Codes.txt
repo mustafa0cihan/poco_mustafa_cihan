@@ -1,0 +1,121 @@
+Pseude Codes
+
+A- Fortune teller
+
+Fortune teller (45 min)
+Why pay a fortune teller when you can just program your fortune yourself?
+
+Store the following into variables: number of children, partner's name, geographic location, job title.
+Output your fortune to the screen / console like so: "You will be a X in Y, and married to Z with N kids."
+
+*************************************************************************
+Solving:
+
+Constriction: 
+1) We can only define the 4 specified variables : "number of children", "partner's name", "geographic location", "job title"
+2) Value must be entered for all variables. Otherwise, the user should be prompted to enter values for empty variables.
+
+1) Start
+2) Define job
+3) Define geographic location
+4) Define partner's name
+5) Define number of children
+6) Check if all variables take any value. Otherwise, warn the user to enter a value.
+7) Print this expression using the variables in their appropriate places : "You will be a (job) in (geographic location), and married to (partner's name) with (number of children) kids.".
+8) Finish
+
+*************************************************************************
+
+B - Age calculator
+Want to find out how old you'll be? Calculate it!
+
+Store your birth year in a variable.
+Store a future year in a variable.
+Calculate your 2 possible ages for that year based on the stored values.
+For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
+Output them to the screen/console like so: "I will be either NN or NN in YYYY", substituting the values.
+
+************************************************************************
+
+Solving:
+
+Constriction 
+1) We will only get two variable values from the user : "birth year and future year"
+2) Future year value must be greater than the year of birth
+3) We will calculate his probable age only in years.
+4) We should also consider the possibility that she/he may not have reached her/his new age in the next year.
+5) Every variable must be integer.
+6) Value must be entered for all variables. Otherwise, the user should be prompted to enter values for empty variables.
+
+1) Start
+2) Get user's birth year
+3) Get user's a future year
+4) Value must be entered for all variables. Otherwise, the user should be prompted to enter values for empty variables.
+5) Check type of variables. If the type of variable values is not integer, ask the user to enter new values.
+6) Check if the future year value is greater than your birth year. If not, request user to enter a larger value for next year variable
+7) Subtract next year from the user's birth year.
+8) Subtract the user's birth year and 1 year from the next year for cases where the user has not reached their new age.
+9) Print the values from steps 4 and 5 to the user as possible age values for future year.
+10) Finish
+
+*************************************************************************
+
+C - Say hello
+Create a program in JavaScript that prompts for your name and prints a greeting using your name.
+
+*************************************************************************
+
+Solving:
+
+Constriction: 
+1) Only name will be taken as variable value from user.
+2) Value must be entered for all variables. Otherwise, the user should be prompted to enter values for empty variables.
+
+1) Start
+2) Get user's name.
+3) Print the following expression using the name value received from the user => "Greetings (name value), welcome to my page!"
+4) Finish
+
+*************************************************************************
+
+D - Counting the number of characters
+
+Create a program in JavaScript that prompts for an input string and displays output that shows the input string and the number of characters the string contains.
+
+*************************************************************************
+
+Solving: 
+
+Constriction: 
+Only text should be received from the user.
+
+1) Start
+2) Request a value as text from the user.
+3) Check if the value entered by the user is text.
+4) If the entered value is text, proceed to the next step. If the value is not text, prompt the user to re-enter the text value.
+5) Count the characters from the first value to the last value of the text.
+6) Print calculated value and text to user
+7) Finish
+
+*************************************************************************
+
+E- Printing quotes
+
+Create a program that prompts for a quote and an author. Display the quotation and author as shown here:
+[Author] says, "[Quote]" (Replace [Author] and [Quote] with the actual values
+
+*************************************************************************
+
+Constriction: 
+1) Only two text values will be retrieved from the user.
+2) Value must be entered for all variables. Otherwise, the user should be prompted to enter values for empty variables.
+
+1) Start
+2) Request author name value from user.
+3) Assign the value entered by the user to the variable "author".
+3) Request quote value from user.
+4) Assign the value entered by the user to the variable "quotes".
+5) Print this expression to the user using the variables where indicated : "(author) says, (quotes)"
+6) Finish
+
+*************************************************************************
