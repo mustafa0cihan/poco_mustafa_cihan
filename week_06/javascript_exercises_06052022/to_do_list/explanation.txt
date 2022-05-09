@@ -1,0 +1,8 @@
+/*Must have requirements
+
+- title
+- list of to do
+- possibility to add new to-do: input & button
+- change order / set priority of to-dos
+- change status of to do (open/done - in progress)
+**/
